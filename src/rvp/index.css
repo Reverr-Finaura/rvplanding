@@ -353,13 +353,13 @@ body {
 
 .card3 {
   position: absolute;
-  top: 52%;
+  top: 58%;
 }
 
 .card4 {
   position: absolute;
-  bottom: -28%;
-  right: -8.6%;
+  bottom: -40%;
+  right: 0.5%;
 }
 
 /* Highlights Container */
@@ -699,7 +699,7 @@ a {
 
 /*Media Queries*/
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1244px) {
   .entre_container {
     display: none;
   }
