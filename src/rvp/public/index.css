@@ -20,6 +20,10 @@ body {
   font-family: poppins;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main_Container {
   display: flex;
   flex-direction: column;
@@ -366,6 +370,7 @@ body {
 
 .highlights_Container {
   margin-top: 10rem;
+  text-align: center;
 }
 
 .highlights_Content_Container {
@@ -378,10 +383,9 @@ body {
 }
 
 .highlights_Content_Container p {
-  width: 40%;
+  /* width: 60%; */
   margin: 2rem 0rem 2rem 0rem;
   color: #ffffff;
-  font-weight: 300;
 }
 
 /* LifeCycle */
@@ -743,6 +747,9 @@ a {
 }
 
 @media screen and (max-width: 760px) {
+  .highlights_Content_Container button {
+    width: 100%;
+  }
   .lifeCycle {
     display: none;
   }
