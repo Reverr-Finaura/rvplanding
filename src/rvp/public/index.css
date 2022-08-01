@@ -8,14 +8,7 @@
 }
 
 body {
-  background: linear-gradient(
-    63.18deg,
-    #000c12 0%,
-    rgba(0, 6, 10, 0.7) 43.89%,
-    rgba(0, 100, 151, 0.440331) 78.03%,
-    rgba(0, 135, 203, 0.21896) 86.48%,
-    rgba(0, 170, 255, 0) 100%
-  );
+  background-color: 000C12;
 
   font-family: poppins;
 }
@@ -366,6 +359,7 @@ body {
 
 .highlights_Container {
   margin-top: 10rem;
+  text-align: center;
 }
 
 .highlights_Content_Container {
@@ -378,7 +372,6 @@ body {
 }
 
 .highlights_Content_Container p {
-  width: 40%;
   margin: 2rem 0rem 2rem 0rem;
   color: #ffffff;
   font-weight: 300;
@@ -724,9 +717,6 @@ a {
 }
 
 @media screen and (max-width: 500px) {
-  .main_Heading {
-    color: black;
-  }
   .sub_Header .header_Content .sub_Header_Btn {
     /* width: 35%; */
     width: 100%;
