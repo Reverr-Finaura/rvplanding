@@ -13,6 +13,12 @@ body {
   font-family: poppins;
 }
 
+/* all anchor  */
+
+a {
+  text-decoration: none;
+}
+
 .main_Container {
   display: flex;
   flex-direction: column;
